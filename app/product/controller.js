@@ -243,5 +243,6 @@ module.exports = {
   store,
   index,
   update,
-  destroy
+  destroy,
+  showTagByCategory
 }
