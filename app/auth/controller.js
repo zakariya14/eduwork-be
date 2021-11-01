@@ -82,7 +82,7 @@ const me = (req, res, next) => {
     res.json({
       err: 1,
       message: `You're not login or token expired`
-    })
+    });
   }
 
   res.json(req.user);
